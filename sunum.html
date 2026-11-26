@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>1 · 2 · 3</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background: #110f0d;
+      }
+
+      .stage {
+        width: 100vw;
+        height: 100vh;
+        padding: 16px;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 16px;
+        align-items: center;
+      }
+
+      .frame {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        border: 1px solid #2d2a26;
+        border-radius: 12px;
+        background: #171512;
+        overflow: hidden;
+        display: grid;
+        place-items: center;
+        cursor: pointer;
+        transition: border-color 140ms ease, transform 140ms ease;
+      }
+
+      .frame:hover {
+        border-color: #6e665a;
+      }
+
+      .frame img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        display: block;
+      }
+
+      .lightbox {
+        position: fixed;
+        inset: 0;
+        z-index: 10;
+        padding: 16px;
+        background: #110f0d;
+        display: none;
+        place-items: center;
+        cursor: pointer;
+      }
+
+      .lightbox.open {
+        display: grid;
+      }
+
+      .lightbox img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+        border: 1px solid #2d2a26;
+        border-radius: 12px;
+        display: block;
+      }
+
+      @media (max-width: 900px) {
+        .stage {
+          grid-template-columns: 1fr;
+          grid-template-rows: repeat(3, minmax(0, 1fr));
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="stage">
+      <div class="frame" data-idx="0">
+        <img src="./round-1/screenshot.png" alt="" />
+      </div>
+      <div class="frame" data-idx="1">
+        <img src="./round-2/screenshot.png" alt="" />
+      </div>
+      <div class="frame" data-idx="2">
+        <img src="./round-3/screenshot.png" alt="" />
+      </div>
+    </main>
+
+    <div class="lightbox" id="lightbox">
+      <img id="lightbox-img" src="" alt="" />
+    </div>
+
+    <script>
+      const slides = [
+        './round-1/screenshot.png',
+        './round-2/screenshot.png',
+        './round-3/screenshot.png',
+      ];
+      const lightbox = document.getElementById('lightbox');
+      const lightboxImg = document.getElementById('lightbox-img');
+      let current = -1;
+
+      function openSlide(idx) {
+        current = ((idx % slides.length) + slides.length) % slides.length;
+        lightboxImg.src = slides[current];
+        lightbox.classList.add('open');
+      }
+
+      function closeSlide() {
+        current = -1;
+        lightbox.classList.remove('open');
+      }
+
+      document.querySelectorAll('.frame').forEach((el) => {
+        el.addEventListener('click', () => openSlide(Number(el.dataset.idx)));
+      });
+
+      lightbox.addEventListener('click', closeSlide);
+
+      window.addEventListener('keydown', (e) => {
+        if (e.key === '1') openSlide(0);
+        else if (e.key === '2') openSlide(1);
+        else if (e.key === '3') openSlide(2);
+        else if (e.key === '0' || e.key === 'Escape') closeSlide();
+        else if (e.key === 'ArrowRight' || e.key === ' ') {
+          openSlide(current === -1 ? 0 : current + 1);
+        } else if (e.key === 'ArrowLeft') {
+          openSlide(current === -1 ? slides.length - 1 : current - 1);
+        }
+      });
+    </script>
+  </body>
+</html>
