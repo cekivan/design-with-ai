@@ -3,26 +3,26 @@
 > Bu dosya ekibinizin tasarım kararlarıdır. AI bu kararları okuyup uygular.
 > **Tur 2'den önce** Persona ve Ton'u mutlaka doldurun. Stil ayarlarında bir seçenek seçin ya da `AI seçsin` bırakın; o zaman AI personaya göre seçip nedenini söyler.
 
-**Grup:** TODO: grup adı ve üyeler
+**Grup:** Mantra — Manifest, Sueda, Karl Marx, Sigmund Freud, Donald Trump, Tesla, Joker
 
-**Brief:** TODO: seçtiğiniz brief dosyası (örn. `brief/02-ortak-kasa.md`). Liste: [brief/README.md](brief/README.md)
+**Brief:** `brief/01-donem.md`
 
 ## 1. Persona
 
 Uygulamayı kim kullanıyor? Tek bir gerçekçi kişi yazın.
 
-- **İsim, yaş, bölüm:** TODO (örn. Ece, 21, İşletme 3. sınıf)
-- **Ne istiyor:** TODO (örn. ay sonunda ev arkadaşlarıyla tartışmadan hesaplaşmak)
-- **Ne onu rahatsız ediyor:** TODO (örn. kimin neyi ödediğini WhatsApp'ta geriye kaydırarak aramak)
-- **Uygulamayı ne zaman açıyor:** TODO (örn. marketten dönünce ve ay sonunda, dizüstünde)
+- **İsim, yaş, bölüm:** Semih Aydın, 25, Makine Mühendisliği
+- **Ne istiyor:** Ders programını (ve sınav/ödev teslimlerini) tek yerde takip etmek; göz sağlığı ve konforu 1. öncelik. Ekstra olarak 3 tema modu: Açık mod, Koyu mod ve Göz körlüğü (renk körlüğü / erişilebilirlik) modu.
+- **Ne onu rahatsız ediyor:** Gri renkler ve gözü yoran, göz alıcı tonlar.
+- **Uygulamayı ne zaman açıyor:** Günde 1 kere, bilgisayarda.
 
 ## 2. Ton
 
 Uygulama nasıl hissettirmeli? **3 kelime** seçin.
 
-TODO (örn. net, sakin, güvenilir)
+Göz dostu, konforlu, sakin (hafif tonlar; gri olmasın, siyah olabilir)
 
-Ve **olmaması gereken** 1 kelime: TODO (örn. çocuksu)
+Ve **olmaması gereken** 1 kelime: Göz alıcı
 
 ## 3. Stil ayarları
 
@@ -30,7 +30,7 @@ Her satırda bir seçenek yazın ya da `AI seçsin` bırakın. Bütün kombinasy
 
 | Ayar | Seçenekler | Seçiminiz |
 | --- | --- | --- |
-| Açılış teması | `koyu` · `açık` (ikisi de yapılır) | TODO |
+| Açılış teması | `koyu` · `açık` (ikisi de yapılır) | koyu |
 | Nötr ton | `neutral` · `warm` (sıcak) · `cool` (soğuk) | AI seçsin |
 | Vurgu rengi | `blue` · `green` · `amber` · `coral` · `teal` · `mono` | AI seçsin |
 | Köşe şekli | `sharp` (keskin) · `soft` (yumuşak) · `round` (yuvarlak) | AI seçsin |
@@ -45,8 +45,9 @@ Listede olmayan bir renk isterseniz hex kodunu yazın ve iki temada kontrastın�
 
 Beğendiğiniz 1–2 uygulama veya site ve **neyini** beğendiğiniz:
 
-- TODO (örn. Splitwise: kimin kime borçlu olduğunu tek satırda göstermesi)
+- Facebook ve GTA 6 arayüzü: göze hitap etmesi
 
 ## 5. Kesinlikle olmasın
 
-- TODO (örn. mor gradient, emoji ikon)
+- Gri renk
+- Göz alıcı, gözü yoran parlak tonlar
