@@ -6,17 +6,17 @@ AI'ın kendi raporuna güvenmeyin; ekranlara **siz** bakın.
 
 | # | Madde | Tur 1 | Tur 2 | Tur 3 |
 | --- | --- | --- | --- | --- |
-| 1 | **Hiyerarşi:** Her ekranda gözün ilk gittiği tek bir şey var. | | | |
-| 2 | **Ana aksiyon:** Her ekranda ne yapmam gerektiği 2 saniyede belli. | | | |
-| 3 | **Kontrast:** Metinler **iki temada da** rahat okunuyor (4.5:1, [kontrol et](https://webaim.org/resources/contrastchecker/)). | | | |
-| 4 | **Renk:** Gri tonlar taşıyor; vurgu rengi sadece seçili / güncel olanda. | | | |
-| 5 | **Tipografi:** Tek aile, en fazla 5 boyut, rakamlar sütunda hizalı. | | | |
-| 6 | **Boşluk:** Ait olan şeyler yakın, gruplar arası nefes alıyor. | | | |
-| 7 | **Tıklama ve durumlar:** Butonlar rahat tıklanır (ana buton ≥ 44px); hover, odak ve boş/hata durumları var. | | | |
-| 8 | **Form:** Alanların görünür etiketi var, hata durumu düşünülmüş. | | | |
-| 9 | **Özgünlük:** "AI yaptı" belli değil (gradient, emoji ikon, her şey ortalı vb. yok). | | | |
-| 10 | **Persona:** Bu tasarım DESIGN.md'deki kişiye gerçekten uygun. | | | |
-| | **Toplam (20)** | | | |
+| 1 | **Hiyerarşi:** Her ekranda gözün ilk gittiği tek bir şey var. | 1 | | |
+| 2 | **Ana aksiyon:** Her ekranda ne yapmam gerektiği 2 saniyede belli. | 0 | | |
+| 3 | **Kontrast:** Metinler **iki temada da** rahat okunuyor (4.5:1, [kontrol et](https://webaim.org/resources/contrastchecker/)). | 0 | | |
+| 4 | **Renk:** Gri tonlar taşıyor; vurgu rengi sadece seçili / güncel olanda. | 0 | | |
+| 5 | **Tipografi:** Tek aile, en fazla 5 boyut, rakamlar sütunda hizalı. | 1 | | |
+| 6 | **Boşluk:** Ait olan şeyler yakın, gruplar arası nefes alıyor. | 0 | | |
+| 7 | **Tıklama ve durumlar:** Butonlar rahat tıklanır (ana buton ≥ 44px); hover, odak ve boş/hata durumları var. | 2 | | |
+| 8 | **Form:** Alanların görünür etiketi var, hata durumu düşünülmüş. | 0 | | |
+| 9 | **Özgünlük:** "AI yaptı" belli değil (gradient, emoji ikon, her şey ortalı vb. yok). | 0 | | |
+| 10 | **Persona:** Bu tasarım DESIGN.md'deki kişiye gerçekten uygun. | 2 | | |
+| | **Toplam (20)** | **6** | | |
 
 ## Tur 3: Hedefli geri bildirim
 
