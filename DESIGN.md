@@ -3,7 +3,7 @@
 > Bu dosya ekibinizin tasarım kararlarıdır. AI bu kararları okuyup uygular.
 > **Tur 2'den önce** Persona ve Ton'u mutlaka doldurun. Stil ayarlarında bir seçenek seçin ya da `AI seçsin` bırakın; o zaman AI personaya göre seçip nedenini söyler.
 
-**Grup:** Mantra — Manifest, Sueda, Karl Marx, Sigmund Freud, Donald Trump, Tesla, Joker
+**Grup:** Mantra — Muhammet Ali Karayel, Semih Aydın, Yasin Çevik
 
 **Brief:** `brief/01-donem.md`
 

@@ -2,7 +2,7 @@
 
 > Bitirince forkunuza push edin ve fork linkinizi forma girin: **https://forms.gle/WTen8QPpZWA5A7DD7**
 
-**Grup:** Mantra — Manifest, Sueda, Karl Marx, Sigmund Freud, Donald Trump, Tesla, Joker
+**Grup:** Mantra — Muhammet Ali Karayel, Semih Aydın, Yasin Çevik
 
 | | Tur 1: Ham prompt | Tur 3: Skill + eleştiri |
 | --- | --- | --- |
