@@ -222,4 +222,10 @@ Example:
   **Örnek:** `Per 3 Ara · 13:30` ilk sütunda, etkinlik adı ikinci sütunda.
 -->
 
-- _No team rules yet._
+- **Kural:** Göz konforu öncelikli ekranlarda 5'li tipografi ölçeğini bir kademe büyüt (`--size-1: 14px`, `--size-2: 16px`, `--size-3: 19px`, `--size-4: 28px`, `--size-5: 34px`); takvim bloklarında ve satırlarda ana başlık `16px medium (--text)`, saat ve yer gibi kritik ikincil bilgiler `14px (--text-2)` olsun (soluk `--text-3` kullanma).
+  **Neden:** Bilgisayarda uzun kullanımda `13px` ve aşırı soluk metinler göz yoruyor; blok içi okuma hiyerarşisini büyütüp netleştirmek tarama hızını ve göz konforunu doğrudan artırıyor.
+  **Örnek:** Takvim bloğunda üstte `Termodinamik II` (`16px`, `500`, `--text`), altta `MAK301 · 09:00–10:50 · M5 Amfi 2` (`14px`, `--text-2`, `tabular-nums`).
+
+- **Kural:** Ekranın tek dolu ana aksiyon butonu (`≥ 48px`) her zaman ilk bakışta, sayfa başlığının sağ üstünde (scroll etmeden görünür) yer alsın; haftalık programda tek tıkla açılan **Düzenleme Modu** ile ders/etkinlik eklenip çıkarılabilsin, bloklar sürüklenerek günü ve saati ayarlanabilsin (üst/alt kenardan uzatma/kısaltma + `Geri al / Ctrl+Z`); tüm formlarda (teslim, ders/etkinlik ve not) her alanın üstünde görünür etiket + `Zorunlu` / `İsteğe bağlı` bilgisi, altında kısa yardımcı metin ve anlık alan içi doğrulama hatası bulunsun.
+  **Neden:** Kullanıcı çakışma gördüğünde bloğu sürükleyip anında çözebilmeli, ana aksiyonu 2 saniyede görebilmeli ve hangi alanın zorunlu olduğunu tahmin etmeden hatasız kayıt oluşturabilmeli.
+  **Örnek:** `Bu Hafta` başlığının sağında `+ Yeni teslim ekle` (`primary`, `48px`); `Haftalık Program` başlığında `Programı düzenle` + `+ Ders ekle` (`ghost`), düzenleme modunda sürükle-bırak taşıma (5 dk snap), kenar tutamacı, silme ve `Geri al`; modal formlarda `Başlık · Zorunlu` etiketi ve bitiş < başlangıç için alan altı hata metni.
